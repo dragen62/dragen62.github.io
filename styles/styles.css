@@ -206,10 +206,7 @@ body {
   position: relative;
   display: block;
   margin-bottom: 25px;
-<<<<<<< HEAD
-=======
   z-index: -1;
->>>>>>> 46055d8 (new build)
 }
 .card-event__picture::before {
   content: '';
@@ -247,13 +244,10 @@ body {
   line-height: normal;
   color: #1f1e1e;
 }
-<<<<<<< HEAD
-=======
 .card-event__link:hover .card-event__title {
   color: #A51505;
   text-decoration-color: #A51505;
 }
->>>>>>> 46055d8 (new build)
 .card-event__datetime {
   margin-top: auto;
   display: block;
@@ -290,11 +284,7 @@ body {
   text-align: center;
 }
 .title {
-<<<<<<< HEAD
-  margin: 0 0 150px;
-=======
   margin: 0 auto 150px;
->>>>>>> 46055d8 (new build)
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   padding: 7px 45px 9px;
