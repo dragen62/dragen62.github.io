@@ -154,7 +154,10 @@ img {
   font-size: 18px;
   line-height: 25px;
   text-decoration: none;
-  color: #000000;
+  color: #1f1e1e;
+}
+.page-header__nav-link:hover {
+  color: #A51505;
 }
 .page-header__user-btn {
   -webkit-box-sizing: border-box;
@@ -167,6 +170,12 @@ img {
   font-weight: 600;
   text-decoration: none;
   background-color: transparent;
+  -webkit-transition: color 0.2s, background-color 0.2s;
+  transition: color 0.2s, background-color 0.2s;
+}
+.page-header__user-btn:hover {
+  color: #FFFFFF;
+  background-color: #1f1e1e;
 }
 .title {
   margin: 0 auto 150px;
@@ -214,14 +223,18 @@ img {
 .listing__title {
   margin-top: 64px;
 }
-.listing__link {
-  display: block;
+.listing__link-container {
   margin-top: 70px;
+  text-align: end;
+}
+.listing__link {
   font-family: "Open Sans";
   text-decoration: none;
   font-size: 16px;
   font-weight: 600;
-  text-align: end;
+}
+.listing__link:hover {
+  color: #A51505;
 }
 .event-card {
   -webkit-box-sizing: border-box;
@@ -238,7 +251,7 @@ img {
           flex-direction: column;
   height: 100%;
 }
-.event-card__link:hover .event-card__link__title {
+.event-card__link:hover {
   color: #A51505;
   text-decoration-color: #A51505;
 }
@@ -455,10 +468,6 @@ img {
   padding: 10px;
   background-color: coral;
   text-align: center;
-}
-.home {
-  padding: 100px 0;
-  padding-top: 147px;
 }
 .home__listing {
   margin-bottom: 95px;
